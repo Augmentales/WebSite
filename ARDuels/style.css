@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* About yazıları için stil */
+.about-text {
+    font-family: 'Press Start 2P', cursive; /* Pixel art tarzı bir font */
+    color: #B8A68E; /* Metin rengi - Görseldeki renge uygun */
+    line-height: 1.5; /* Satır yüksekliği */
+    padding: 20px; /* İç boşluk ekliyoruz */
+    text-align: justify; /* Metni hizalıyoruz */
+    overflow-y: auto; /* Dikey kaydırma çubuğunu etkinleştiriyoruz */
+    max-height: 80vh; /* Maksimum yükseklik ayarlıyoruz */
+    scrollbar-width: thin; /* İnce scroll bar */
+    scrollbar-color: #B8A68E #3E2723; /* Scroll bar renkleri */
+}
+
+.about-text strong {
+    color: #e4c193; /* Scroll bar rengi */
+    border-radius: 10px; /* Scroll bar köşe yuvarlaklığı */
+}
+
+.about-text::-webkit-scrollbar-track {
+    background-color: #3E2723; /* Scroll bar arka plan rengi */
+}
+
+.about-text h2 {
+    color: #e4c193; /* Başlık rengi - Görseldeki renge uygun */
+    margin-bottom: 10px;
+}
+
+.about-text ul {
+    list-style: none; /* Madde işaretlerini kaldırıyoruz */
+    padding-left: 0;
+}
+
+.about-text li {
+    margin-bottom: 10px;
+}
+
+.about-text li::before {
+    content: '★ '; /* Her maddeye yıldız simgesi ekliyoruz */
+    color: #e4c193; /* Yıldız rengi */
+}
+
+/* Daha önceki stil ve background ayarlarını koruyalım */
+.about-section {
+    background: url('images/background.jpg') no-repeat center center; /* Mevcut arka plan */
+    background-size: cover;
+    font-size: 0.8em; /* Yazı boyutunu biraz küçültüyoruz */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Tam ekran yüksekliğinde */
+}
+
+/*******************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.how-to-play-text {
+    font-family: 'Press Start 2P', cursive;
+    color: #B8A68E;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 80vh;
+    scrollbar-width: thin;
+    scrollbar-color: #B8A68E #3E2723;
+}
+
+.how-to-play-text::-webkit-scrollbar {
+    width: 8px;
+}
+
+.how-to-play-text::-webkit-scrollbar-thumb {
+    background-color: #B8A68E;
+    border-radius: 10px;
+}
+
+.how-to-play-text::-webkit-scrollbar-track {
+    background-color: #3E2723;
+}
+
+.how-to-play-text h2 {
+    color: #B8A68E;
+    margin-bottom: 20px;
+}
+
+.how-to-play-section {
+    background: url('images/background.jpg') no-repeat center center;
+    background-size: cover;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin-top: 20px; /* Videoyu başlıktan biraz ayırmak için */
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/****************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.project-team-text {
+    font-family: 'Press Start 2P', cursive;
+    color: #B8A68E;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 80vh;
+    scrollbar-width: thin;
+    scrollbar-color: #B8A68E #3E2723;
+}
+
+.project-team-text::-webkit-scrollbar {
+    width: 8px;
+}
+
+.project-team-text::-webkit-scrollbar-thumb {
+    background-color: #B8A68E;
+    border-radius: 10px;
+}
+
+.project-team-text::-webkit-scrollbar-track {
+    background-color: #3E2723;
+}
+
+.project-team-text h2 {
+    color: #B8A68E;
+    margin-bottom: 20px;
+}
+
+.project-team-section {
+    background: url('images/background.jpg') no-repeat center center;
+    background-size: cover;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#project-team ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#project-team ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#project-team li {
+    font-size: 1em;
+    color: #B8A68E;
+    margin: 10px 0;
+}
+
+#project-team li strong {
+    color: #e4c193; /* Başlık ve önemli metin rengi */
+}
+
+#project-team a {
+    color: #B8A68E;
+    text-decoration: none;
+}
+
+#project-team a:hover {
+    text-decoration: underline;
+}
+
+/******************************************************************/
+
+
+/******************************************************************/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Sayfa taşmasını engeller */
+}
+
+.background {
+    background-image: url('images/background.jpg'); /* Arka plan görüntüsü */
+    background-size: 100%; /* Arka plan görüntüsünün sayfa boyutuna uyum sağlaması */
+    background-repeat: repeat;
+    background-position: top; /* Arka plan görüntüsünün ortalanması */
+    image-rendering: pixelated;
+    height: 100%; /* Sayfa yüksekliği */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.9) 100%);
+    pointer-events: none;
+}
+
+.background-filter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Saydam bir renk */
+    pointer-events: none;
+}
+
+.hand {
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    z-index: 50;
+}
+
+.card-deck {
+    width: 300px;
+    height: 450px;
+    transform: translateX(50%);
+    position: fixed;
+    right: 15%;
+    background-image: url("images/CardDeckLow.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    display: flex;
+    align-items: flex-end; /* Sağ kenara hizala */
+    z-index: 1;
+}
+
+.card-placeholder-holder{
+    position: fixed;
+}
+
+.card-placeholder {
+    width: 200px;
+    height: 300px;
+    position: fixed;
+    transform: translate(50%, 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    display: flex; /* Flex konteynırı olarak ayarla */
+    align-items: flex-end; /* Dikey eksende sağ alt köşeye hizala */
+    justify-content: flex-end; /* Yatay eksende sağ alt köşeye hizala */
+    bottom: 50%; /* Alttan 20 piksel boşluk bırak */
+    right: 15%; /* Sağdan 20 piksel boşluk bırak */
+    z-index: 20;
+}
+
+@keyframes card-placeholder-animation {
+    100% {
+        bottom: -30%;
+        right: 50%;
+    }
+}
+
+.card-placeholder.animate {
+    animation: card-placeholder-animation 1s ease-in forwards;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    rotation-point: bottom;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    margin-right: -100px;
+    margin-left: -100px;
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: none;
+    transition: transform 0.2s, margin 0.2s;
+    image-rendering: pixelated;
+    z-index: 50;
+}
+
+@keyframes cardSpawnAnimation {
+    0% {
+        transform: translateY(400%);
+        opacity: 1;
+    }
+    70% {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+    100% {
+        transform: translateY(0%);
+        margin-right: -25px;
+        margin-left: -25px;
+        opacity: 1;
+    }
+}
+
+.card.spawn-animation {
+    animation: cardSpawnAnimation 2s ease-out forwards;
+}
+
+.card:hover {
+    transform: scale(1.2) translateY(-20%) !important;
+    z-index: 100; ;
+    margin-right: 25px !important;
+    margin-left: 25px !important;
+}
+
+.card:active {
+    transform: scale(1.1) translateY(-20%) !important;
+}
+
+.card.play-animation {
+    animation: cardPlayAnimation 1s ease forwards;
+}
+
+@keyframes cardPlayAnimation {
+    0% {
+        transform: translateY(-20%) scale(1.1) !important;
+        z-index: 100;
+    }
+    90%{
+        z-index: 100;
+    }
+    100% {
+        transform: translateY(0%) scale(0.95) !important;
+        z-index: 5;
+    }
+}
+
+.discard-pile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.page {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    z-index: 200;
+}
+
+.page.show-animation {
+    animation: pageShowAnimation 1s ease forwards;
+}
+
+@keyframes pageShowAnimation {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.page.hide-animation {
+    animation: pageHideAnimation 1s ease forwards;
+}
+
+@keyframes pageHideAnimation {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+.container {
+    position: fixed;
+    height: 100%; /* Subtract the top and bottom margin */
+    width: 100%; /* Subtract the left and right margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .background {
+        background-size: 300%; /* Mobil cihazlar için arka plan resmini %300 boyutunda göster */
+    }
+    .card-deck {
+        width: 200px;
+        height: 300px;
+    }
+    .card {
+        width: 133px;
+        height: 200px;
+    }
+    .card-placeholder {
+        width: 133px;
+        height: 200px;
+    }
+    .hand {
+        height: 200px;
+    }
+}
+
+
+main {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-image: url('images/background.jpg'); /* Background image */
+    background-size: cover; /* Ensure the background image covers the container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the background image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Relative position for layering content */
+   /* padding: 15px; /* Add padding for better text visibility */
+}
+
+#about {
+    max-width: 100%; /* Ensure the about section does not extend beyond the container */
+    padding: 20px; /* Additional padding for the content */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.5); /* Ensure background color is uniform */
+}
+
+#about h2 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#howtoplay {
+    max-width: 100%; /* Ensure the how-to-play section does not extend beyond the container */
+    padding: 20px; /* Additional padding for the content */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.5); /* Ensure background color is uniform */
+}
+
+#howtoplay h2 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#howtoplay p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARDuels Cards</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            background: url('images/background.jpg') no-repeat center center; /* Genel arka plan */
+            background-size: cover; /* Arka planın ekranı kaplamasını sağlar */
+        }
+
+        
+        #cards .card {
+            width: 150px;  /* Genişlik */
+            height: 220px; /* Yükseklik */
+            text-align: center;
+            padding: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background-image: url('images/bg.png'); /* Kartların arka planı */
+            background-size: cover; /* Arka planın kartı kaplamasını sağlar */
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 5px;  /* Kartlar arası mesafe */
+        }
+
+        #cards .card img {
+            width: 100%;
+            height: auto;
+            max-height: 140px;
+        }
+
+        #cards .card p {
+            font-family: 'Press Start 2P', cursive; /* Pixel art tarzı bir font */
+            font-size: 0.9em;
+            color: #e4c193;  /* Metin rengi #e4c193 olarak ayarlandı */
+            margin: 1px 0;
+            display: block;
+        }
+
+        .card-container {
+            display: flex;  /* Flexbox kullanarak kartları yatay olarak düzenle */
+            flex-wrap: wrap;  /* Ekran genişliği yeterli olmadığında yeni satıra geç */
+            justify-content: center;  /* Kartları merkezde hizala */
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="cards" style="background-image: url('images/bg.png'); padding: 20px; color: #ffffff;">
+        <h2>ARDuels Cards</h2>
+        <div class="card-container">
+            <!-- Tüm kartları burada döngüde gösteriyoruz -->
+            <!-- Her kart için bir <div> bloğu oluşturun -->
+            <!-- Burada örnek olarak ilk üç kart verilmiştir. Bunu 24 kart için tekrarlayın -->
+            <div class="card">
+                <img src="images/kartlar/1.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/2.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/3.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/4.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/5.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/6.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/7.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/8.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/9.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/10.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/11.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/12.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/13.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/14.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/15.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/16.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/17.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/18.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/19.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/20.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/21.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/22.png" alt="Kart 1">
+                <p>Can: 50</p>
+                <p>Mana: 30</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/23.png" alt="Kart 2">
+                <p>Can: 40</p>
+                <p>Mana: 40</p>
+            </div>
+            <div class="card">
+                <img src="images/kartlar/24.png" alt="Kart 3">
+                <p>Can: 60</p>
+                <p>Mana: 20</p>
+            </div>
+       
+        </div>
+    </section>
+</body>
+</html>
+        </div>
+    </section>
+</body>
+</html>
