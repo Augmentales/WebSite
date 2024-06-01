@@ -1,4 +1,4 @@
-# Proje Resimleri
+# Website Images
 
 ![1. Image](screenshots/1.png)
 *Main page*
