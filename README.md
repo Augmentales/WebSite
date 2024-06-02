@@ -4,13 +4,16 @@
 *Main page*
 
 ![2. Image](screenshots/2.png)
-*About Us*
+*Main page 2*
 
 ![3. Image](screenshots/3.png)
-*How to Play*
+*About Us*
 
 ![4. Image](screenshots/4.png)
-*ARDuels Cards*
+*How to Play*
 
 ![5. Image](screenshots/5.png)
+*ARDuels Cards*
+
+![6. Image](screenshots/5.png)
 *Project Members*
