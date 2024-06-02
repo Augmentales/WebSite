@@ -15,5 +15,5 @@
 ![5. Image](screenshots/5.png)
 *ARDuels Cards*
 
-![6. Image](screenshots/5.png)
+![6. Image](screenshots/6.png)
 *Project Members*
